@@ -1,0 +1,27 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(147, 245, 252);
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.form label{
+    font-size: 20px;
+    margin: 10px;
+}
+.form input{
+    width: 280px;
+}
+.form button{
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: green;
+    color: black;
+    font-weight: bold;
+}
+.bold{
+    color: red;
+    font-weight: bold;
+}

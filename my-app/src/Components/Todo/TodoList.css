@@ -1,0 +1,56 @@
+.todos{
+    background-color:#80deea7a;
+height:200vh;
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #42a5f5cc;
+    height: 100px;
+    width: 50%;
+    margin: auto;
+}
+.inputs input{
+   margin: 20px;
+   height: 9vh;
+}
+.inputs button{
+    height: 9vh;
+    border: 2px solid black;
+    font-size: 13px;
+    font-weight: bold;
+    background-color:white ;
+    border-radius: 18px;
+}
+.list{
+   display: flex;
+   flex-direction: column;
+    margin-top: 30px;
+}
+.display{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 20px;
+padding: 4px;
+}
+.display li{
+    margin: 10px;
+    font-size: 19px;
+}
+.display button{
+    border: 3px solid red;
+    font-size: 14px;
+    color: red;
+    background-color: white;
+    border-radius: 23px;
+ padding: 5px;
+ margin: 5px;
+  
+}
